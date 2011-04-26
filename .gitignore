@@ -3,3 +3,5 @@
 *.rdb
 tmp*
 pkg*
+*.DS_Store
+*.rvmrc
