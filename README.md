@@ -2,6 +2,15 @@
 
 Modesty is a really simple metrics and a/b testing framework that doesn't really do all that much.  It was inspired by assaf's Vanity (github.com/assaf/vanity).
 
+
+## Install
+
+    gem install modesty
+
+or in your Gemfile
+
+    gem 'modesty'
+
 ## Metrics
 A metric keeps track of things that happen, and ties in and disaggregates many different types of data.  Define a metric with:
 
