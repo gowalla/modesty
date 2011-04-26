@@ -19,6 +19,9 @@ rescue LoadError
   puts "Jeweler (or a dependency) not available. Install it with: sudo gem install jeweler"
 end
 
+Jeweler::RubygemsDotOrgTasks.new
+
+
 Spec::Rake::SpecTask.new('spec') do |t|
   t.spec_files = FileList['spec/**/*_spec.rb']
   t.ruby_opts = ['-Ilib']
